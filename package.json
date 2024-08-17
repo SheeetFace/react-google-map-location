@@ -1,0 +1,54 @@
+{
+  "name": "react-google-map-location",
+  "version": "1.0.0",
+  "description": "A simple React component for embedding Google Maps based on a location string or coordinates, with responsive settings and error handling.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "google",
+    "map",
+    "location",
+    "coordinates",
+    "embed",
+    "responsive"
+  ],
+  "author": "https://github.com/SheeetFace",
+  "homepage":"https://github.com/SheeetFace/react-google-map-location",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SheeetFace/react-google-map-location"
+  },
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^17 || ^18",
+    "react-dom": "^17 || ^18"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "rollup": "^4.20.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.5.4"
+  }
+}
