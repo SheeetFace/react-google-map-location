@@ -28,7 +28,7 @@ npm install react-google-map-location
 
 ```tsx
 import React from 'react';
-import MapLocation from 'react-google-map-location';
+import { MapLocation } from 'react-google-map-location';
 
 const App = () => {
   return (
